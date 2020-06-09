@@ -1,0 +1,167 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-3L {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url("img/metal_refurb.jpg");
+    min-height: 100%;
+}
+
+.bgimg-2 {
+    background-image: url("img/Precision-Metalworks-Manufacturing-1.jpg");
+    min-height: 400px;
+}
+
+.bgimg-3 {
+    background-image: url("img/Steel-Fabrication-North-East-CB-Construction.jpg");
+    min-height: 400px;
+}
+
+.bgimg-3L {
+    background-image: url("img/Steel-Fabrication-North-East-CB-Construction.jpg");
+    min-height: 100%;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #000;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.captionSpan {
+    background-color: transparent;
+    font-size: 25px;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.captionSpan:hover {
+    background-color: #111;
+    color: #fff;
+    transition: ease-in-out 1s;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 30px "Lato", sans-serif;
+    color: #111;
+}
+
+h4 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 17px "Lato", sans-serif;
+    color: #111;
+}
+
+.section-light {
+    color: #777;
+    background-color: white;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+}
+
+.section-dark {
+    color: #ddd;
+    background-color: #282e34;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+}
+
+.imgGrid {
+    padding: 5px;
+}
+
+.gridImg {
+    width: 300px;
+    height: 211px;
+    padding: 5px;
+}
+
+#whatWeDo-links {
+    color: #fff;
+}
+
+#whatWeDo-links:hover {
+    color: orangered;
+}
+
+#values span {
+    color: orangered;
+}
+
+#QuoteBtn {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+#QuoteBtn:hover {
+    background-color: orangered;
+    color: #fff;
+}
+
+form div input {
+    margin: 10px;
+}
+
+form div textarea {
+    margin: 10px;
+}
+
+footer {
+    height: 10vh;
+    align-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
